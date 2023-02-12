@@ -1,0 +1,38 @@
+h1,h3 {
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .grid-item {
+    border: 1px solid rgba(185,63,8,.8);
+    border-radius: 15px;
+    padding: 5px;
+  }
+  .image-gallery{
+    margin-top: 10%;
+  }
+ img{
+    width: 400px;
+    height: 350px;
+  }
+figure{
+    text-align: center;
+}
+h1,h3,figcaption{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: rgba(185,63,8,1);
+}
+figcaption{
+    font-style: italic;
+    font-size: .75em;
+}
+body{
+    background-color: rgba(247,112,24,.2);
+}
+a{
+    float: right;
+    margin-top: 100px;
+}
