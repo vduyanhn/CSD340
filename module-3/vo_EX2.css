@@ -1,0 +1,64 @@
+html {
+    font-size: 16px;
+}
+body {
+    font-size: 16px;
+  }
+#para1 {
+    text-indent: .2em;
+} 
+p::first-line { 
+    text-indent: .2em; 
+}
+p {
+    font-family: "Quattrocento", Georgia, “Times New Roman” serif;
+}
+p.thick {
+    font-weight: bold;
+}
+h1, h2 {
+    font-family: "Oswald", Verdana, "Arial", sans-serif;
+}
+h1 {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 3.052em;
+    word-spacing: .5em;
+    margin: 0px;
+    text-align: center;
+}
+h2 {
+    font-weight: 500;
+    font-size: 2.441em;
+    word-spacing: .2em;
+    margin: 0px;
+    text-align: left;
+    scroll-padding-top: 15px;
+}
+p {
+    line-height: 1.4em;
+}
+address {
+    font-family: "Quattrocento", Georgia, “Times New Roman” serif;
+    text-align: center;}
+    
+
+/* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.25em;
+    color: #4F3674;
+  }
+/* mouse over link */
+a:hover {
+    text-underline-position: below;
+    background-color: #D6A800;
+    }
+/* visited link*/
+a:visited {
+    color: hotpink;
+}
+  
+  
